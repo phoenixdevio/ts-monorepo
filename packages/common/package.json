@@ -1,0 +1,33 @@
+{
+  "name": "@yarn_lerna_jest_typescript/common",
+  "version": "0.5.2",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript.git"
+  },
+  "author": "SeyyedMahdi hassanpour",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/issues"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript#readme",
+  "keywords": [
+    "yarn workspaces",
+    "lerna managing JavaScript projects with multiple packages",
+    "jest testing",
+    "unit test",
+    "multiple packages development"
+  ]
+}
